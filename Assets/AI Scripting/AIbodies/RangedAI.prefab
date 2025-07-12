@@ -152,3 +152,7 @@ MonoBehaviour:
   enemyChar: {fileID: 3751770234583265825}
   speed: 3
   rotationSpeed: 3
+  raycastDistance: 10
+  hitLayer:
+    serializedVersion: 2
+    m_Bits: 64
