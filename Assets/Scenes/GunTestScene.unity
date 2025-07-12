@@ -358,6 +358,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MeleeAI
       objectReference: {fileID: 0}
+    - target: {fileID: 3595807572031873103, guid: 48349ff6cd31c3242b45a0c7ab26756f,
+        type: 3}
+      propertyPath: hitLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 6899918327928626149, guid: 48349ff6cd31c3242b45a0c7ab26756f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -476,6 +481,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5239225971371842935, guid: feec5d0813781024f8ba7caec6521bcf,
+        type: 3}
+      propertyPath: hitLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 5239225971371842935, guid: feec5d0813781024f8ba7caec6521bcf,
+        type: 3}
+      propertyPath: raycastDistance
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -543,6 +558,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Playerdoodad
+      objectReference: {fileID: 0}
+    - target: {fileID: 4189854478810271991, guid: e76c11f74f0a27e419a1c93d9542ed5f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
