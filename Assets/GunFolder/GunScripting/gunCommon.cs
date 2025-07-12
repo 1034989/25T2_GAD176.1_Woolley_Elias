@@ -34,6 +34,13 @@ public class gunCommon : MonoBehaviour
             // Fire the weapon
             weaponEquipped.ShootWeapon();
         }
+        if (Input.GetKeyDown(KeyCode.R)) // Reload weapon
+        {
+            weaponEquipped.reloadWeapon();
+        }
+        {
+            
+        }
     }
     void createWeaponInstances()
     {

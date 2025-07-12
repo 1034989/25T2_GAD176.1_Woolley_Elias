@@ -19,4 +19,9 @@ public class Weapon : ScriptableObject
         ammoCount--;
         Debug.Log("Shooting " + weaponName + ". Ammo left: " + ammoCount + "/" + clipSize);
     }
+    public void reloadWeapon()
+    {
+        ammoCount = clipSize;
+        Debug.Log("Reloading " + weaponName + ". Ammo filled: " + ammoCount + "/" + clipSize);
+    }
 }
